@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    background-color: rgb(245, 187, 164);
+}
+
+.nav ul{
+    background-color: rgba(250, 231, 208, 0.63);
+    height: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+}
+.nav ul li {
+    padding-left: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: transparent;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(48, 44, 33);
+    font-size: 18px;
+    background-color: transparent;
+    
+}
+.nav ul li a:hover {
+    opacity: 0.8;
+}
+
+.slike {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    background-image: url('New Folder/naslovna.jpg');
+    background-color: aqua;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /*  */
+    height: 900px;
+    justify-content: center;
+    align-content: center;
+    opacity: 0.9;
+}
+.slike div {
+    display: grid;
+    grid-row: inherit;
+    grid-column: inherit;
+    justify-items: center;
+    align-items: center;
+    opacity: 1.0;
+    color: rgb(255, 239, 169);
+    text-align: center;
+    background-color: transparent;
+    
+}
+.span1 {
+    font-size: 50px;
+    background-color: rgb(41, 23, 0);
+    padding: 5px 10px;
+    
+}
+.span2 {
+    font-size: 20px;
+    background-color: rgb(41, 23, 0);
+    padding: 5px 10px;
+    
+}
+.slike div button a,
+.slike div button {
+    padding: 10px 20px;
+    margin-top: 50px;
+    background-color: rgb(41, 23, 0);
+    text-decoration: none;
+    color: rgb(255, 239, 169);
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+.galerija {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    padding: 50px 100px;
+    background-color: rgb(245, 187, 164);
+
+}
+.galerija img:hover {
+    transform: scale(2.2); 
+}
+.naslov_galerija {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 60px;
+    align-items: center;
+    justify-items: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: oblique;
+    padding-top: 30px;
+    border-top: 2px;
+    border-top-style: solid;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: rgb(245, 187, 164);
+}
+
+.kontakt {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 800px;
+    border-width: 2px;
+    border-top-style: solid;
+    margin: 60px 100px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.kontakt input {
+    padding: 8px 80px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 20px;
+}
+.kontakt option,
+.kontakt select {
+    padding: 5px 25px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.kontakt button {
+    padding: 10px 20px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    border-width: 2px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    cursor: pointer;
+}
+.kontakt button:hover {
+    opacity: 0.8;
+}
+
+.futer *{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.futer div {
+    justify-items: center;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+
+
+
